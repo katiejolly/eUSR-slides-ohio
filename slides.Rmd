@@ -21,7 +21,7 @@ options(htmltools.dir.version = FALSE, message = FALSE)
 ```{r xaringan-themer, include = FALSE}
 library(xaringanthemer)
 solarized_light(
-  header_font_google = google_font("Raleway", "600"),
+  header_font_google = google_font("Lato", "600"),
   text_font_google   = google_font("Lato", "300", "300i"),
   code_font_family = "Fira Code",
   code_font_url = "https://cdn.rawgit.com/tonsky/FiraCode/1.204/distr/fira_code.css"
