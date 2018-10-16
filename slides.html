@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Digitizing, Districting, and Data</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Katie Jolly and Katya Kelly   Macalester College" />
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Digitizing, Districting, and Data
+## Creating an Open-Source Precinct Shapefile for Ohio
+### Katie Jolly and Katya Kelly <br> Macalester College
+### 2 November 2018
+
+---
+
+
+
+
+
+
+
+background-image: url(https://raw.githubusercontent.com/katiejolly/eUSR-slides-ohio/master/images/ohio-art.png)
+background-size: 90%
+
+---
+class: center, middle
+
+# Creating the shapefile
+
+### Digitzing and computational methods combined
+
+---
+
+background-image: url("https://raw.githubusercontent.com/katiejolly/eUSR-slides-ohio/master/images/4c-wch-precinct.jpg")
+background-size: 90%
+
+
+class: bottom, left
+
+# Fayette County
+
+
+
+---
+
+background-image: url("https://raw.githubusercontent.com/katiejolly/eUSR-slides-ohio/master/images/noble.jpg")
+background-size: 90%
+
+---
+class: bottom, middle
+
+background-image: url("https://raw.githubusercontent.com/katiejolly/eUSR-slides-ohio/master/images/geocode_flowchart.png")
+background-size: 80%
+
+class: top, left
+
+###Algorithm outline: approximating precincts
+
+---
+
+background-image: url("https://raw.githubusercontent.com/katiejolly/blog/master/assets/ohio/iterations.gif")
+background-size: 90%
+
+---
+class: center, middle
+
+#Evaluating the approximations
+
+###Using Clark County as an example
+---
+
+background-image: url("https://raw.githubusercontent.com/katiejolly/eUSR-slides-ohio/master/images/clark_rih_base.png")
+background-size: 90%
+
+---
+
+
+background-image: url("https://raw.githubusercontent.com/katiejolly/eUSR-slides-ohio/master/images/civic-circle.PNG")
+background-size: 90%
+
+##Civic Data Principles and Themes &lt;br&gt;
+&lt;br&gt;
+
+---
+
+class: center, middle
+
+# Thanks for listening!
+
+### Feel free to contact us with questions!
+
+Katie Jolly (Macalester College): katiejolly6@gmail.com
+
+Katya Kelly (Macalester College): kellykat203@gmail.com
+
+&lt;hr&gt;
+
+If you're interested in learning more about our work, check out this page we put together: https://tinyurl.com/eusr18-ohio. 
+
+*The Metric Geometry and Gerrymandering Group (and VRDI) has major support from the Jonathan M. Tisch College of Civic Life at Tufts University and the Amar G. Bose Research Grant Program at MIT.*
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "solarized-light",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
+
+<script>
+(function() {
+  var i, text, code, codes = document.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+})();
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
